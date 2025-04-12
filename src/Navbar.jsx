@@ -8,15 +8,15 @@ const Navbar = () => {
         display: "flex",
         justifyContent: "center",
         gap: "30px",
-        position: "absolute", // Positioning it relative to the viewport
-        top: "0", // Places it at the top
-        left: "50%", // Centers horizontally
-        transform: "translateX(-50%)", // Adjusts centering
-        background: "linear-gradient(to right, #4b6cb7, #182848)", // Gradient
+        position: "absolute",
+        top: "0", 
+        left: "50%", 
+        transform: "translateX(-50%)", 
+        background: "linear-gradient(to right, #4b6cb7, #182848)", 
         padding: "15px",
-        boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.3)", // Shadow effect
-        width: "100%", // Ensures it spans the entire width
-        zIndex: "10", // Keeps it above other elements
+        boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.3)", 
+        width: "100%", 
+        zIndex: "10", 
       }}
     >
       <div>

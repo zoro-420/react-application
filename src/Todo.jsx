@@ -15,13 +15,13 @@ const Todo = () => {
         justifyContent: "center",
         alignItems: "center",
         height: "100vh",
-        background: "linear-gradient(to right, #ece9e6, #ffffff)", // Subtle gradient background
-        fontFamily: "'Arial', sans-serif", // Cleaner typography
+        background: "linear-gradient(to right, #ece9e6, #ffffff)", 
+        fontFamily: "'Arial', sans-serif", 
         fontSize: "20px",
         fontWeight: "bold",
         padding: "20px",
         borderRadius: "10px",
-        boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.15)", // Elegant shadow
+        boxShadow: "0px 4px 12px rgba(0, 0, 0, 0.15)",
       }}
     >
       <div
@@ -29,7 +29,7 @@ const Todo = () => {
           fontSize: "26px",
           fontWeight: "600",
           color: "#333",
-          marginBottom: "10px", // Adds spacing below text
+          marginBottom: "10px", 
         }}
       >
         Count: {count}
@@ -44,16 +44,16 @@ const Todo = () => {
           border: "none",
           borderRadius: "8px",
           cursor: "pointer",
-          boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.1)", // Subtle button shadow
+          boxShadow: "0px 2px 4px rgba(0, 0, 0, 0.1)", 
           transition: "transform 0.2s ease, background-color 0.3s ease",
         }}
         onMouseOver={(e) => {
           e.target.style.backgroundColor = "#45a049";
-          e.target.style.transform = "scale(1.1)"; // Slight scale-up effect
+          e.target.style.transform = "scale(1.1)"; 
         }}
         onMouseOut={(e) => {
           e.target.style.backgroundColor = "#4CAF50";
-          e.target.style.transform = "scale(1)"; // Reset scale
+          e.target.style.transform = "scale(1)"; 
         }}
         onClick={() => dispatch(increment())}
       >
